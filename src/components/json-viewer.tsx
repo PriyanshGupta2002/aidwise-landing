@@ -1,9 +1,12 @@
 "use client";
 import React from "react";
-import ReactJson from "react-json-view";
+
 import text from "../../public/response.json";
+import { JSONTree } from "react-json-tree";
 const JsonViewer = () => {
-  return <ReactJson src={text} theme={"codeschool"} />;
+  return (
+    <JSONTree data={text} theme={{ base0E: "#ae81ff" }} invertTheme={false} />
+  );
 };
 
 export default JsonViewer;
