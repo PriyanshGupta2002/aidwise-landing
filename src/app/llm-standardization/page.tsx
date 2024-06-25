@@ -1,11 +1,12 @@
+import IFrameViewer from "@/components/i-frame-viewer";
 import React from "react";
-
-import JsonViewer from "@/components/json-viewer";
 
 const page = () => {
   return (
-    <div className="mt-9 max-w-5xl m-auto max-h-96 overflow-y-auto">
-      <JsonViewer />
+    <div className="my-20">
+      <div className="max-w-5xl m-auto w-full relative">
+        <IFrameViewer src="https://invoice-extractor-rho.vercel.app/" />
+      </div>
     </div>
   );
 };

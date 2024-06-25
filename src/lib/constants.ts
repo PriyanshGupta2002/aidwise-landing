@@ -11,15 +11,15 @@ export const navMenu: navMenuType[] = [
     label: "Copilot",
     inMenu: [
       {
-        name: "Chatbot Over SharePoint",
+        name: "AI Research Assistant",
         url: "/chat-bot-over-sharepoint",
       },
       {
-        name: "Chatbot Over Data",
+        name: ".DotZ Copilot",
         url: "/chat-bot-over-data",
       },
       {
-        name: "Translation & Secured Sharing",
+        name: "AI Health Recorder",
         url: "/translation-secured-sharing",
       },
     ],
@@ -29,10 +29,10 @@ export const navMenu: navMenuType[] = [
     inMenu: [
       {
         name: "Invoice Extractor",
-        url: "#",
+        url: "/invoice-extractor",
       },
       {
-        name: "LLM Standardization",
+        name: "Coding.ai",
         url: "/llm-standardization",
       },
     ],
@@ -41,11 +41,15 @@ export const navMenu: navMenuType[] = [
     label: "Data Generators",
     inMenu: [
       {
-        name: "LLM Trend Generators",
+        name: "AI Strategy Generator",
         url: "/llm-trend-generators",
       },
       {
-        name: "Charter Generators",
+        name: "AI Strategy Sense ",
+        url: "/ai-strategy-sense",
+      },
+      {
+        name: "AI StratPlanner",
         url: "/charter-generators",
       },
     ],
@@ -54,11 +58,11 @@ export const navMenu: navMenuType[] = [
     label: "Computer Vision",
     inMenu: [
       {
-        name: "Disease Prediction",
-        url: "#",
+        name: "RetinaScan AI",
+        url: "/retina-scan",
       },
       {
-        name: "Fraud Prediction",
+        name: "Risk.ai",
         url: "/fraud-prediction",
       },
     ],
@@ -67,7 +71,7 @@ export const navMenu: navMenuType[] = [
     label: "Speech Analytics",
     inMenu: [
       {
-        name: "Call Cluster Prediction",
+        name: "Speech Analyzer",
         url: "#",
       },
     ],
@@ -77,7 +81,7 @@ export const navMenu: navMenuType[] = [
     inMenu: [
       {
         name: "Coverage Simulators",
-        url: "#",
+        url: "/coverage-simulators",
       },
     ],
   },
