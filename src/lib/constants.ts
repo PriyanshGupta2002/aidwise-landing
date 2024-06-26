@@ -72,7 +72,7 @@ export const navMenu: navMenuType[] = [
     inMenu: [
       {
         name: "Speech Analyzer",
-        url: "#",
+        url: "/speech-analytics",
       },
     ],
   },

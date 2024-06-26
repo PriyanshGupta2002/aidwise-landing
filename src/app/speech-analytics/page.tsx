@@ -5,7 +5,7 @@ const page = () => {
   return (
     <div className="my-20">
       <div className="max-w-5xl m-auto w-full relative">
-        <IFrameViewer src="https://disease-prediction-retina-scan.netlify.app/covid" />
+        <IFrameViewer src="https://speech-analytics.vercel.app/" />
       </div>
     </div>
   );
